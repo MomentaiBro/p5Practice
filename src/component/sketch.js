@@ -8,7 +8,7 @@ export default (props) => {
 	const setup = (p5, canvasParentRef) => {
 		// use parent to render the canvas in this ref
 		// (without that p5 will render the canvas outside of your component)
-		p5.createCanvas(500, 500).parent(canvasParentRef);
+		p5.createCanvas(800, 200).parent(canvasParentRef);
 	};
 
 	const draw = (p5) => {
